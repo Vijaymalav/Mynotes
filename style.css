@@ -1,0 +1,101 @@
+*{
+    margin: 0px 5px;
+    padding: 0;
+    /* background-color: rgb(163, 112, 45); */
+}
+/* this is for styling of navebar */
+#navbar{
+    padding: 8px;
+    color: white;
+   
+    background-color: rgb(51, 57, 59);
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+    margin-left:2%;
+    margin-top: 0.8rem;
+}
+
+/* styling for input tag */
+.inp{
+    position: absolute;
+   right: 2%;
+   top: 0.9rem;
+}
+/* styling css for noyes bar where i am writing note */
+.note{
+    padding: 3%;
+    font-weight: bold;
+background-color: rgb(197, 193, 193);
+width: fit-content;
+height: fit-content;
+/* border: 2px solid rgb(54, 51, 51); */
+text-align: center;
+margin: 2% 25%;
+box-shadow: 2px 3px #6e6969;
+}
+/* this for text area */
+
+#text{
+    height: 50%;
+    width: 70%;
+    margin: 0% 2%;
+    padding: 2% 1%;
+    border-radius: 2%;
+    box-shadow: 2px 3px #3f3d3d;
+}
+
+/* for search button styling  */
+.btn-style{
+    background-color: rgb(231, 101, 101);
+ 
+    padding: 3px;
+    margin: 3px;
+    cursor: pointer;
+}
+/* for button add or delete */
+.abtn{
+    background-color: rgb(70, 117, 247);
+    height: 2rem;
+    margin: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+/* all my notes showing bar */
+#All-note{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+}
+
+/* for note card */
+.notes{
+    border: 1px solid black;
+    padding: 1%;
+    border-radius: 2%;
+    box-shadow: 2px 3px #3f3d3d;
+
+    overflow-wrap: break-word;
+     margin: 1rem;
+    width: 6rem;
+    height: auto;
+    /* background-color: gray; */
+}
+
+ 
+
+#mynote{
+    margin: 2em 3em;
+}
+
+@media only screen and (max-width: 419px) {
+    .inp{
+    position: relative;
+     margin-bottom: 1em;
+     }
+   }
